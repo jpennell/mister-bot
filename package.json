@@ -1,0 +1,15 @@
+{
+  "name": "mister",
+  "version": "1.0.0",
+  "description": "It's a mister cat!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Pennell <pennell.james@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "botkit": "^0.4.10",
+    "botkit-storage-redis": "^1.1.0"
+  }
+}
