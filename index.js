@@ -31,6 +31,10 @@ controller.on('direct_message', function (bot, message) {
   bot.reply(message, 'meow :cat:');
 });
 
+controller.on('mention', function (bot, message) {
+  bot.reply(message, 'meow :cat:');
+});
+
 controller.on('create_bot', rtm);
 controller.on('rtm_close', rtm);
 
