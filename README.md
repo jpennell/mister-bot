@@ -2,4 +2,6 @@
 
 I'm a mister cat meow meow meow :cat:
 
-![Mister](images/mister.jpg?raw=true "Mister")
+<p align="center">
+  <img src="images/mister.jpg" width="350"/>
+</p>
