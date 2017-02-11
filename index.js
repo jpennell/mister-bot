@@ -16,7 +16,7 @@ let app = controller.configureSlackApp({
   scopes: ['bot']
 });
 
-controller.setupWebserver(process.env.PORT, function (err, server) {
+controller.setupWebserver(process.env.PORT || 8080, function (err, server) {
   controller
     .createHomepageEndpoint(controller.webserver)
     .createOauthEndpoints(controller.webserver)
